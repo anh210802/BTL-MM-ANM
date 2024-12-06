@@ -1,4 +1,4 @@
-Mã hóa AES-128 chế đọ EBC - Padding: None
+Mã hóa AES-128 chế độ EBC - Padding: None
 
 file chính: 
 aes.h
