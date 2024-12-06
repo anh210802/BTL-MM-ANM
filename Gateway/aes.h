@@ -16,10 +16,6 @@ struct AES {
 	uint8_t RoundKey[AES_keyExpSize];
 };
 
-void AES_init_ctx(struct AES* ctx, const uint8_t* key);
-void AES_encrypt(const struct AES* ctx, uint8_t* buf);
-void AES_decrypt(const struct AES* ctx, uint8_t* buf);
-
 void handleDataEncrypt(const char *input_str, char *data_sent, uint8_t *key);
 void handleDataDecrypt(const char* data_encrypt, char* data_decrypt, uint8_t* key);
 
